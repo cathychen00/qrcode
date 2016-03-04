@@ -1,0 +1,7 @@
+E:\Code\QR\QRCode\QRCodeLibTests\bin\Release\QRCodeLibTests.dll
+E:\Code\QR\QRCode\QRCodeLibTests\bin\Release\QRCodeLibTests.pdb
+E:\Code\QR\QRCode\QRCodeLibTests\bin\Release\ThoughtWorks.QRCode.dll
+E:\Code\QR\QRCode\QRCodeLibTests\bin\Release\ThoughtWorks.QRCode.pdb
+E:\Code\QR\QRCode\QRCodeLibTests\obj\Release\QRCodeLibTests.csprojResolveAssemblyReference.cache
+E:\Code\QR\QRCode\QRCodeLibTests\obj\Release\QRCodeLibTests.dll
+E:\Code\QR\QRCode\QRCodeLibTests\obj\Release\QRCodeLibTests.pdb

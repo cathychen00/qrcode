@@ -1,0 +1,13 @@
+E:\Demo\MyTest\QRCode\QRCodeLib\obj\Release\ThoughtWorks.QRCode.Properties.Resources.resources
+E:\Demo\MyTest\QRCode\QRCodeLib\obj\Release\QRCodeLib.csproj.GenerateResource.Cache
+E:\Demo\MyTest\QRCode\QRCodeLib\obj\Release\ThoughtWorks.QRCode.dll
+E:\Demo\MyTest\QRCode\QRCodeLib\obj\Release\ThoughtWorks.QRCode.pdb
+E:\Demo\MyTest\QRCode\QRCodeLib\ThoughtWorks.QRCode.dll
+E:\Demo\MyTest\QRCode\QRCodeLib\ThoughtWorks.QRCode.pdb
+E:\Code\QR\QRCode\QRCodeLib\obj\Release\QRCodeLib.csprojResolveAssemblyReference.cache
+E:\Code\QR\QRCode\QRCodeLib\obj\Release\ThoughtWorks.QRCode.Properties.Resources.resources
+E:\Code\QR\QRCode\QRCodeLib\obj\Release\QRCodeLib.csproj.GenerateResource.Cache
+E:\Code\QR\QRCode\QRCodeLib\obj\Release\ThoughtWorks.QRCode.dll
+E:\Code\QR\QRCode\QRCodeLib\obj\Release\ThoughtWorks.QRCode.pdb
+E:\Code\QR\QRCode\QRCodeLib\ThoughtWorks.QRCode.dll
+E:\Code\QR\QRCode\QRCodeLib\ThoughtWorks.QRCode.pdb

@@ -1,0 +1,14 @@
+E:\Code\QR\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.Properties.Resources.resources
+E:\Code\QR\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.csproj.GenerateResource.Cache
+E:\Code\QR\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.dll
+E:\Code\QR\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.pdb
+E:\Code\QR\QRCode\QRCodeLib\ThoughtWorks.QRCode.dll
+E:\Code\QR\QRCode\QRCodeLib\ThoughtWorks.QRCode.pdb
+E:\Code\QR\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.csprojResolveAssemblyReference.cache
+E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.csprojResolveAssemblyReference.cache
+E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.Properties.Resources.resources
+E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.csproj.GenerateResource.Cache
+E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.dll
+E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.pdb
+E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\ThoughtWorks.QRCode.dll
+E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\ThoughtWorks.QRCode.pdb

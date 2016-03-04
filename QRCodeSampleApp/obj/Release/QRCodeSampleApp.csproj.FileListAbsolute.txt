@@ -1,0 +1,15 @@
+E:\Demo\MyTest\QRCode\QRCodeSampleApp\obj\Release\QRCodeSampleApp.csprojResolveAssemblyReference.cache
+E:\Demo\MyTest\QRCode\QRCodeSampleApp\obj\Release\QRCodeSample.Properties.Resources.resources
+E:\Demo\MyTest\QRCode\QRCodeSampleApp\obj\Release\QRCodeSample.testdecode.resources
+E:\Demo\MyTest\QRCode\QRCodeSampleApp\obj\Release\QRCodeSampleApp.csproj.GenerateResource.Cache
+E:\Code\QR\QRCode\QRCodeSampleApp\bin\Release\QRCodeSample.exe
+E:\Code\QR\QRCode\QRCodeSampleApp\bin\Release\QRCodeSample.pdb
+E:\Code\QR\QRCode\QRCodeSampleApp\bin\Release\ThoughtWorks.QRCode.dll
+E:\Code\QR\QRCode\QRCodeSampleApp\bin\Release\ThoughtWorks.QRCode.pdb
+E:\Code\QR\QRCode\QRCodeSampleApp\obj\Release\QRCodeSampleApp.csprojResolveAssemblyReference.cache
+E:\Code\QR\QRCode\QRCodeSampleApp\obj\Release\QRCodeSample.Properties.Resources.resources
+E:\Code\QR\QRCode\QRCodeSampleApp\obj\Release\QRCodeSample.QrCodeSampleApp.resources
+E:\Code\QR\QRCode\QRCodeSampleApp\obj\Release\QRCodeSample.testdecode.resources
+E:\Code\QR\QRCode\QRCodeSampleApp\obj\Release\QRCodeSampleApp.csproj.GenerateResource.Cache
+E:\Code\QR\QRCode\QRCodeSampleApp\obj\Release\QRCodeSample.exe
+E:\Code\QR\QRCode\QRCodeSampleApp\obj\Release\QRCodeSample.pdb
