@@ -15,14 +15,14 @@ namespace ShuokeQrCodeTests
                 ArticleId = 1000,
                 Content = "测试文章内容"
             };
-            MqUtils.SendMessage(article, "amqp://admin:admin@10.168.100.192/", "qrcodetest");
+            MqUtils.SendMessage(article, "*", "qrcodetest");
         }
 
         [TestMethod]
         public void TestGet()
         {
             BlogArticleDto article =new BlogArticleDto();
-            MqUtils.GetRabbitMq<BlogArticleDto>("amqp://admin:admin@10.168.100.192/", "qrcodetest", (t) =>
+            MqUtils.GetRabbitMq<BlogArticleDto>("*", "qrcodetest", (t) =>
             {
                 article = t;
             });
@@ -39,7 +39,7 @@ namespace ShuokeQrCodeTests
         //        ArticleId = 200,
         //        Content = "<p style=\"text - indent: 2em; \">测试</p><p style=\"text - align: center; \"><img src=\"http://www3.autoimg.cn/newsdfs/g22/M08/B5/BF/620x0_1_autohomecar__wKgFVlbdLP2AIRFwAADuiA8ia7w244.jpg\" style=\"width:430px;height:430px\" /></p><p style=\"text-indent: 2em;\"><br /></p>"
         //    };
-        //    MqUtils.SendMessage(article, "amqp://admin:admin@10.168.100.192/", "qrcodetest");
+        //    MqUtils.SendMessage(article, "*", "qrcodetest");
         //}
     }
 }
