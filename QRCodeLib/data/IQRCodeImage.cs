@@ -1,4 +1,4 @@
-namespace ThoughtWorks.QRCode.Codec.Data
+namespace QRCodeLib.data
 {
 	public interface IQRCodeImage
 	{

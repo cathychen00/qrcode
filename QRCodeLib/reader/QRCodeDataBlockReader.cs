@@ -1,12 +1,11 @@
 using System;
-using ThoughtWorks.QRCode.Codec;
-using ThoughtWorks.QRCode.Codec.Util;
-using ThoughtWorks.QRCode.ExceptionHandler;
+using QRCodeLib.exception;
+using QRCodeLib.util;
 
-namespace ThoughtWorks.QRCode.reader
+namespace QRCodeLib.reader
 {
-	
-	public class QRCodeDataBlockReader
+
+    public class QRCodeDataBlockReader
 	{
 		virtual internal int NextMode
 		{

@@ -1,18 +1,18 @@
 using System;
-using ThoughtWorks.QRCode.Codec.Data;
-using ThoughtWorks.QRCode.reader.pattern;
-using AlignmentPatternNotFoundException = ThoughtWorks.QRCode.ExceptionHandler.AlignmentPatternNotFoundException;
-using FinderPatternNotFoundException = ThoughtWorks.QRCode.ExceptionHandler.FinderPatternNotFoundException;
-using SymbolNotFoundException = ThoughtWorks.QRCode.ExceptionHandler.SymbolNotFoundException;
-using InvalidVersionException = ThoughtWorks.QRCode.ExceptionHandler.InvalidVersionException;
-using VersionInformationException = ThoughtWorks.QRCode.ExceptionHandler.VersionInformationException;
-using ThoughtWorks.QRCode.Geom;
-using ThoughtWorks.QRCode.Codec.Util;
+using QRCodeLib.data;
+using QRCodeLib.geom;
+using QRCodeLib.reader.pattern;
+using QRCodeLib.util;
+using AlignmentPatternNotFoundException = QRCodeLib.exception.AlignmentPatternNotFoundException;
+using FinderPatternNotFoundException = QRCodeLib.exception.FinderPatternNotFoundException;
+using SymbolNotFoundException = QRCodeLib.exception.SymbolNotFoundException;
+using InvalidVersionException = QRCodeLib.exception.InvalidVersionException;
+using VersionInformationException = QRCodeLib.exception.VersionInformationException;
 
-namespace ThoughtWorks.QRCode.Codec.Reader
+namespace QRCodeLib.reader
 {
-	
-	public class QRCodeImageReader
+
+    public class QRCodeImageReader
 	{
 		internal IDebugCanvas canvas;
 		//boolean[][] image;
@@ -597,7 +597,7 @@ namespace ThoughtWorks.QRCode.Codec.Reader
 			}
 			if (bottomRightPoint.X > image.Length - 1 || bottomRightPoint.Y > image[0].Length - 1)
 				throw new System.IndexOutOfRangeException("Sampling grid pointed out of image");
-			canvas.drawPoint(bottomRightPoint, ThoughtWorks.QRCode.Codec.Util.Color_Fields.BLUE);
+			canvas.drawPoint(bottomRightPoint, Color_Fields.BLUE);
 			
 			return sampledMatrix;
 		}

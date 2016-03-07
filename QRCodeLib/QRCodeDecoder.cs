@@ -1,22 +1,22 @@
 using System;
 using System.Drawing;
 using System.Text;
-using ThoughtWorks.QRCode.Codec.Data;
-using ThoughtWorks.QRCode.reader;
-using QRCodeImage = ThoughtWorks.QRCode.Codec.Data.IQRCodeImage;
-using QRCodeSymbol = ThoughtWorks.QRCode.Codec.Data.QRCodeSymbol;
-using ReedSolomon = ThoughtWorks.QRCode.Codec.Ecc.ReedSolomon;
-using DecodingFailedException = ThoughtWorks.QRCode.ExceptionHandler.DecodingFailedException;
-using InvalidDataBlockException = ThoughtWorks.QRCode.ExceptionHandler.InvalidDataBlockException;
-using SymbolNotFoundException = ThoughtWorks.QRCode.ExceptionHandler.SymbolNotFoundException;
-using Point = ThoughtWorks.QRCode.Geom.Point;
-using QRCodeDataBlockReader = ThoughtWorks.QRCode.reader.QRCodeDataBlockReader;
-using QRCodeImageReader = ThoughtWorks.QRCode.Codec.Reader.QRCodeImageReader;
-using DebugCanvas = ThoughtWorks.QRCode.Codec.Util.IDebugCanvas;
-using DebugCanvasAdapter = ThoughtWorks.QRCode.Codec.Util.DebugCanvasAdapter;
-using QRCodeUtility = ThoughtWorks.QRCode.Codec.Util.QRCodeUtility;
+using QRCodeLib.data;
+using QRCodeLib.reader;
+using QRCodeImage = QRCodeLib.data.IQRCodeImage;
+using QRCodeSymbol = QRCodeLib.data.QRCodeSymbol;
+using ReedSolomon = QRCodeLib.ecc.ReedSolomon;
+using DecodingFailedException = QRCodeLib.exception.DecodingFailedException;
+using InvalidDataBlockException = QRCodeLib.exception.InvalidDataBlockException;
+using SymbolNotFoundException = QRCodeLib.exception.SymbolNotFoundException;
+using Point = QRCodeLib.geom.Point;
+using QRCodeDataBlockReader = QRCodeLib.reader.QRCodeDataBlockReader;
+using QRCodeImageReader = QRCodeLib.reader.QRCodeImageReader;
+using DebugCanvas = QRCodeLib.util.IDebugCanvas;
+using DebugCanvasAdapter = QRCodeLib.util.DebugCanvasAdapter;
+using QRCodeUtility = QRCodeLib.util.QRCodeUtility;
 
-namespace ThoughtWorks.QRCode.Codec
+namespace QRCodeLib
 {
 	
 	public class QRCodeDecoder

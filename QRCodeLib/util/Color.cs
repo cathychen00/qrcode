@@ -1,4 +1,4 @@
-namespace ThoughtWorks.QRCode.Codec.Util
+namespace QRCodeLib.util
 {
 	
 	public struct Color_Fields{

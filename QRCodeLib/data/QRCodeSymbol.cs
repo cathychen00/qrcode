@@ -1,10 +1,10 @@
 using System;
-using ThoughtWorks.QRCode.reader.pattern;
-using BCH15_5 = ThoughtWorks.QRCode.Codec.Ecc.BCH15_5;
-using ThoughtWorks.QRCode.Geom;
-using SystemUtils = ThoughtWorks.QRCode.Codec.Util.SystemUtils;
+using QRCodeLib.geom;
+using QRCodeLib.reader.pattern;
+using BCH15_5 = QRCodeLib.ecc.BCH15_5;
+using SystemUtils = QRCodeLib.util.SystemUtils;
 
-namespace ThoughtWorks.QRCode.Codec.Data
+namespace QRCodeLib.data
 {
 	
 	public class QRCodeSymbol

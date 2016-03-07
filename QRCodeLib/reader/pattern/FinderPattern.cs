@@ -1,10 +1,8 @@
-using ThoughtWorks.QRCode.Codec;
-using ThoughtWorks.QRCode.Codec.Reader;
-using ThoughtWorks.QRCode.Codec.Util;
-using ThoughtWorks.QRCode.ExceptionHandler;
-using ThoughtWorks.QRCode.Geom;
+using QRCodeLib.exception;
+using QRCodeLib.geom;
+using QRCodeLib.util;
 
-namespace ThoughtWorks.QRCode.reader.pattern
+namespace QRCodeLib.reader.pattern
 {
 	
 	public class FinderPattern
@@ -220,7 +218,7 @@ namespace ThoughtWorks.QRCode.reader.pattern
 			for (int i = 0; i < foundLines.Length; i++)
 				foundLines[i] = (Line) lineAcross[i];
 			
-			canvas.drawLines(foundLines, ThoughtWorks.QRCode.Codec.Util.Color_Fields.LIGHTGREEN);
+			canvas.drawLines(foundLines, Color_Fields.LIGHTGREEN);
 			return foundLines;
 		}
 
@@ -407,7 +405,7 @@ namespace ThoughtWorks.QRCode.reader.pattern
 
             if (foundPoints.Length == 3)
             {
-                canvas.drawPolygon(foundPoints, ThoughtWorks.QRCode.Codec.Util.Color_Fields.RED);
+                canvas.drawPolygon(foundPoints, Color_Fields.RED);
                 return foundPoints;
             }
             else
@@ -764,7 +762,7 @@ namespace ThoughtWorks.QRCode.reader.pattern
 					points[x + y * 3] = target;
 				}
 			}
-			canvas.drawPoints(points, ThoughtWorks.QRCode.Codec.Util.Color_Fields.RED);
+			canvas.drawPoints(points, Color_Fields.RED);
 			
 			int exactVersion = 0;
 			try
@@ -787,7 +785,7 @@ namespace ThoughtWorks.QRCode.reader.pattern
 						points[x + y * 3] = target;
 					}
 				}
-				canvas.drawPoints(points, ThoughtWorks.QRCode.Codec.Util.Color_Fields.RED);
+				canvas.drawPoints(points, Color_Fields.RED);
 				
 				try
 				{

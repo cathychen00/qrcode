@@ -31,5 +31,14 @@ E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeSampleAp
 E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeSampleApp\obj\Debug\QRCodeSample.QrCodeSampleApp.resources
 E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeSampleApp\obj\Debug\QRCodeSample.testdecode.resources
 E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeSampleApp\obj\Debug\QRCodeSampleApp.csproj.GenerateResource.Cache
+E:\Git\qrcode\QRCodeSampleApp\bin\Debug\QRCodeSample.exe
+E:\Git\qrcode\QRCodeSampleApp\bin\Debug\QRCodeSample.pdb
+E:\Git\qrcode\QRCodeSampleApp\bin\Debug\QRCodeLib.dll
+E:\Git\qrcode\QRCodeSampleApp\bin\Debug\QRCodeLib.pdb
+E:\Git\qrcode\QRCodeSampleApp\obj\Debug\QRCodeSampleApp.csprojResolveAssemblyReference.cache
+E:\Git\qrcode\QRCodeSampleApp\obj\Debug\QRCodeSample.Properties.Resources.resources
+E:\Git\qrcode\QRCodeSampleApp\obj\Debug\QRCodeSample.QrCodeSampleApp.resources
+E:\Git\qrcode\QRCodeSampleApp\obj\Debug\QRCodeSample.testdecode.resources
+E:\Git\qrcode\QRCodeSampleApp\obj\Debug\QRCodeSampleApp.csproj.GenerateResource.Cache
 E:\Git\qrcode\QRCodeSampleApp\obj\Debug\QRCodeSample.exe
 E:\Git\qrcode\QRCodeSampleApp\obj\Debug\QRCodeSample.pdb

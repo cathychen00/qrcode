@@ -1,12 +1,10 @@
-using ThoughtWorks.QRCode.Codec;
-using ThoughtWorks.QRCode.Codec.Reader;
-using ThoughtWorks.QRCode.Codec.Util;
-using ThoughtWorks.QRCode.ExceptionHandler;
-using ThoughtWorks.QRCode.Geom;
+using QRCodeLib.exception;
+using QRCodeLib.geom;
+using QRCodeLib.util;
 
-namespace ThoughtWorks.QRCode.reader.pattern
+namespace QRCodeLib.reader.pattern
 {
-	public class AlignmentPattern
+    public class AlignmentPattern
     {
         #region const
         internal const int RIGHT = 1;
@@ -112,15 +110,15 @@ namespace ThoughtWorks.QRCode.reader.pattern
 			
 			axis.Origin = finderPattern.GetCenter(FinderPattern.UL);
 			centers[0][0] = axis.translate(3, 3);
-			canvas.drawCross(centers[0][0], ThoughtWorks.QRCode.Codec.Util.Color_Fields.BLUE);
+			canvas.drawCross(centers[0][0], Color_Fields.BLUE);
 			
 			axis.Origin = finderPattern.GetCenter(FinderPattern.UR);
 			centers[sqrtCenters - 1][0] = axis.translate(- 3, 3);
-			canvas.drawCross(centers[sqrtCenters - 1][0], ThoughtWorks.QRCode.Codec.Util.Color_Fields.BLUE);
+			canvas.drawCross(centers[sqrtCenters - 1][0], Color_Fields.BLUE);
 			
 			axis.Origin = finderPattern.GetCenter(FinderPattern.DL);
 			centers[0][sqrtCenters - 1] = axis.translate(3, - 3);
-			canvas.drawCross(centers[0][sqrtCenters - 1], ThoughtWorks.QRCode.Codec.Util.Color_Fields.BLUE);
+			canvas.drawCross(centers[0][sqrtCenters - 1], Color_Fields.BLUE);
 			
 			Point tmpPoint = centers[0][0];
 			
@@ -141,7 +139,7 @@ namespace ThoughtWorks.QRCode.reader.pattern
 							target = axis.translate(centers[x - 1][y], logicalCenters[x][y].X - logicalCenters[x - 1][y].X, 0);
 						}
 						centers[x][y] = new Point(target.X, target.Y);
-						canvas.drawCross(centers[x][y], ThoughtWorks.QRCode.Codec.Util.Color_Fields.RED);
+						canvas.drawCross(centers[x][y], Color_Fields.RED);
 					}
 					else if (x == 0)
 					{
@@ -150,7 +148,7 @@ namespace ThoughtWorks.QRCode.reader.pattern
 							target = axis.translate(centers[x][y - 1], 0, logicalCenters[x][y].Y - logicalCenters[x][y - 1].Y);
 						}
 						centers[x][y] = new Point(target.X, target.Y);
-						canvas.drawCross(centers[x][y], ThoughtWorks.QRCode.Codec.Util.Color_Fields.RED);
+						canvas.drawCross(centers[x][y], Color_Fields.RED);
 					}
 					else
 					{
@@ -164,7 +162,7 @@ namespace ThoughtWorks.QRCode.reader.pattern
 						
 						if (centers[x][y].DistanceOf(precisionCenter) < 6)
 						{
-							canvas.drawCross(centers[x][y], ThoughtWorks.QRCode.Codec.Util.Color_Fields.RED);
+							canvas.drawCross(centers[x][y], Color_Fields.RED);
 							int dx = precisionCenter.X - centers[x][y].X;
 							int dy = precisionCenter.Y - centers[x][y].Y;
 							canvas.println("Adjust AP(" + x + "," + y + ") to d(" + dx + "," + dy + ")");
@@ -172,8 +170,8 @@ namespace ThoughtWorks.QRCode.reader.pattern
 							centers[x][y] = precisionCenter;
 						}
 					}
-					canvas.drawCross(centers[x][y], ThoughtWorks.QRCode.Codec.Util.Color_Fields.BLUE);
-					canvas.drawLine(new Line(tmpPoint, centers[x][y]), ThoughtWorks.QRCode.Codec.Util.Color_Fields.LIGHTBLUE);
+					canvas.drawCross(centers[x][y], Color_Fields.BLUE);
+					canvas.drawLine(new Line(tmpPoint, centers[x][y]), Color_Fields.LIGHTBLUE);
 					tmpPoint = centers[x][y];					
 				}
 			}

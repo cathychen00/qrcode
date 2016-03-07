@@ -1,6 +1,6 @@
 using System;
 
-namespace ThoughtWorks.QRCode.Codec.Util
+namespace QRCodeLib.util
 {
 
     /// <summary>

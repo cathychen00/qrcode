@@ -1,5 +1,5 @@
-using QRCodeImageReader = ThoughtWorks.QRCode.Codec.Reader.QRCodeImageReader;
-namespace ThoughtWorks.QRCode.Geom
+using QRCodeImageReader = QRCodeLib.reader.QRCodeImageReader;
+namespace QRCodeLib.geom
 {
 	/// <summary> This class designed to move target point based on independent axis.
 	/// It allows move target coodinate on rotated, scaled and gauche QR Code image

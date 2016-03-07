@@ -1,4 +1,4 @@
-namespace ThoughtWorks.QRCode.reader.pattern
+namespace QRCodeLib.reader.pattern
 {
 	/// <summary> 
     /// Alignment PatternµÄÎ»ÖÃ

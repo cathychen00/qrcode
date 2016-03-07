@@ -1,6 +1,6 @@
 using System;
 
-namespace ThoughtWorks.QRCode.Geom
+namespace QRCodeLib.geom
 {  
     /// <summary>
     /// ¶Ëµã

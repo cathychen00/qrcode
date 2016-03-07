@@ -1,5 +1,6 @@
 using System;
-namespace ThoughtWorks.QRCode.ExceptionHandler
+
+namespace QRCodeLib.exception
 {
 	[Serializable]
 	public class FinderPatternNotFoundException:System.Exception

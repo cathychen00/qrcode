@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Net;
 
-namespace ThoughtWorks.QRCode.reader
+namespace QRCodeLib.reader
 {
     public class UrlReader
     {

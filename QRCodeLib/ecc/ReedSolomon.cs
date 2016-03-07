@@ -1,4 +1,4 @@
-namespace ThoughtWorks.QRCode.Codec.Ecc
+namespace QRCodeLib.ecc
 {	
 	public class ReedSolomon
 	{

@@ -1,5 +1,4 @@
-using System;
-namespace ThoughtWorks.QRCode.Geom
+namespace QRCodeLib.geom
 {
 	
 	/// <summary> This class is used for sampling grid

@@ -1,5 +1,4 @@
 using System.Reflection;
-using System.Runtime.CompilerServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
@@ -7,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 // TODO: Review the values of the assembly attributes
 
-[assembly: AssemblyTitle("ThoughtWorks.QRCode.NET Component")]
+[assembly: AssemblyTitle("QRCode.NET Component")]
 [assembly: AssemblyDescription("A library for QRCode encoding and decoding")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("")]

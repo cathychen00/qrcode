@@ -1,4 +1,4 @@
-namespace ThoughtWorks.QRCode.Codec.Ecc
+namespace QRCodeLib.ecc
 {
     /// <summary>
     /// BCH码，用于版本信息纠错

@@ -1,7 +1,6 @@
 using System;
-using QRCodeUtility = ThoughtWorks.QRCode.Codec.Util.QRCodeUtility;
 
-namespace ThoughtWorks.QRCode.Geom
+namespace QRCodeLib.geom
 {	
 	public class Line
 	{

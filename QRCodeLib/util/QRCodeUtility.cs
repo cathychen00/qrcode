@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace ThoughtWorks.QRCode.Codec.Util
+namespace QRCodeLib.util
 {
 	public class QRCodeUtility
 	{

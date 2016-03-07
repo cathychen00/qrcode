@@ -55,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QRCodeLib\ThoughtWorks.QRCode.csproj">
+    <ProjectReference Include="..\QRCodeLib\QRCodeLib.csproj">
       <Project>{E98126B2-AF17-4783-96B9-856D6744DCA3}</Project>
-      <Name>ThoughtWorks.QRCode</Name>
+      <Name>QRCodeLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

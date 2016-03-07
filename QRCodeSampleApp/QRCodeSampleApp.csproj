@@ -116,9 +116,9 @@
     <Content Include="lib\QRCodeLib.pdb" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QRCodeLib\ThoughtWorks.QRCode.csproj">
+    <ProjectReference Include="..\QRCodeLib\QRCodeLib.csproj">
       <Project>{e98126b2-af17-4783-96b9-856d6744dca3}</Project>
-      <Name>ThoughtWorks.QRCode</Name>
+      <Name>QRCodeLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

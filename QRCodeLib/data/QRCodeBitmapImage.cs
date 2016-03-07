@@ -1,6 +1,6 @@
 using System.Drawing;
 
-namespace ThoughtWorks.QRCode.Codec.Data
+namespace QRCodeLib.data
 {
     public class QRCodeBitmapImage : IQRCodeImage
     {

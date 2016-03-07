@@ -1,13 +1,12 @@
 using System;
-using System.Text;
 using System.Drawing;
 using System.IO;
-using ThoughtWorks.QRCode.Properties;
+using System.Text;
+using QRCodeLib.Properties;
+using SystemUtils = QRCodeLib.util.SystemUtils;
+using QRCodeUtility = QRCodeLib.util.QRCodeUtility;
 
-using SystemUtils = ThoughtWorks.QRCode.Codec.Util.SystemUtils;
-using QRCodeUtility = ThoughtWorks.QRCode.Codec.Util.QRCodeUtility;
-
-namespace ThoughtWorks.QRCode.Codec
+namespace QRCodeLib
 {
     public class QRCodeEncoder
     {

@@ -12,3 +12,10 @@ E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\obj\
 E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.pdb
 E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\ThoughtWorks.QRCode.dll
 E:\汽车之家\2015\0610-研究二维码识别\QRCode0617\QRCode\QRCodeLib\ThoughtWorks.QRCode.pdb
+E:\Git\qrcode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.csprojResolveAssemblyReference.cache
+E:\Git\qrcode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.Properties.Resources.resources
+E:\Git\qrcode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.csproj.GenerateResource.Cache
+E:\Git\qrcode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.dll
+E:\Git\qrcode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.pdb
+E:\Git\qrcode\QRCodeLib\ThoughtWorks.QRCode.dll
+E:\Git\qrcode\QRCodeLib\ThoughtWorks.QRCode.pdb

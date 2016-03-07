@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ThoughtWorks.QRCode.Geom;
+using QRCodeLib.geom;
 
 namespace QRCodeLibTests.geom
 {

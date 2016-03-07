@@ -1,14 +1,14 @@
 using System;
-using Line = ThoughtWorks.QRCode.Geom.Line;
-using Point = ThoughtWorks.QRCode.Geom.Point;
+using Line = QRCodeLib.geom.Line;
+using Point = QRCodeLib.geom.Point;
 
-namespace ThoughtWorks.QRCode.Codec.Util
+namespace QRCodeLib.util
 {
-	/* 
+    /* 
 	* This class must be a "edition independent" class for debug information controll.
 	* I think it's good idea to modify this class with a adapter pattern
 	*/
-	public class DebugCanvasAdapter : IDebugCanvas
+    public class DebugCanvasAdapter : IDebugCanvas
 	{
 		public virtual void  println(String string_Renamed)
 		{

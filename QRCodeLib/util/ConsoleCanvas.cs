@@ -1,8 +1,8 @@
 using System;
-using Line = ThoughtWorks.QRCode.Geom.Line;
-using Point = ThoughtWorks.QRCode.Geom.Point;
+using Line = QRCodeLib.geom.Line;
+using Point = QRCodeLib.geom.Point;
 
-namespace ThoughtWorks.QRCode.Codec.Util
+namespace QRCodeLib.util
 {
     public class ConsoleCanvas : IDebugCanvas
     {

@@ -8,8 +8,8 @@ E:\Code\QR\QRCode\QRCodeLibTests\obj\Debug\QRCodeLibTests.csprojResolveAssemblyR
 E:\Git\qrcode\QRCodeLibTests\bin\Debug\QRCodeLibTests.dll
 E:\Git\qrcode\QRCodeLibTests\bin\Debug\QRCodeLibTests.pdb
 E:\Git\qrcode\QRCodeLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-E:\Git\qrcode\QRCodeLibTests\bin\Debug\ThoughtWorks.QRCode.dll
-E:\Git\qrcode\QRCodeLibTests\bin\Debug\ThoughtWorks.QRCode.pdb
+E:\Git\qrcode\QRCodeLibTests\bin\Debug\QRCodeLib.dll
+E:\Git\qrcode\QRCodeLibTests\bin\Debug\QRCodeLib.pdb
 E:\Git\qrcode\QRCodeLibTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 E:\Git\qrcode\QRCodeLibTests\obj\Debug\QRCodeLibTests.csprojResolveAssemblyReference.cache
 E:\Git\qrcode\QRCodeLibTests\obj\Debug\QRCodeLibTests.dll
