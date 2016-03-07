@@ -11,6 +11,7 @@ E:\Code\QR\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.dll
 E:\Code\QR\QRCode\QRCodeLib\obj\Debug\ThoughtWorks.QRCode.pdb
 E:\Code\QR\QRCode\QRCodeLib\ThoughtWorks.QRCode.dll
 E:\Code\QR\QRCode\QRCodeLib\ThoughtWorks.QRCode.pdb
+E:\Git\qrcode\QRCodeLib\obj\Debug\QRCodeLib.csprojResolveAssemblyReference.cache
 E:\Git\qrcode\QRCodeLib\obj\Debug\QRCodeLib.Properties.Resources.resources
 E:\Git\qrcode\QRCodeLib\obj\Debug\QRCodeLib.csproj.GenerateResource.Cache
 E:\Git\qrcode\QRCodeLib\obj\Debug\QRCodeLib.dll
