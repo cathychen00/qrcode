@@ -11,8 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeLibTests", "QRCodeLib
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{768A79F7-DF2C-49A2-BBBF-D75777B3B76B}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\EBOOK\ISOIEC 18004_2006Cor 1_2009.pdf = ..\..\EBOOK\ISOIEC 18004_2006Cor 1_2009.pdf
-		..\..\EBOOK\QRCode_编码解码标准.pdf = ..\..\EBOOK\QRCode_编码解码标准.pdf
+		doc\ISOIEC 18004_2006Cor 1_2009.pdf = doc\ISOIEC 18004_2006Cor 1_2009.pdf
+		doc\QRCode_编码解码标准.pdf = doc\QRCode_编码解码标准.pdf
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuokeQrCodeService", "ShuokeQrCodeService\ShuokeQrCodeService.csproj", "{3AB450AF-602A-4A47-9390-292CDCD521C6}"
